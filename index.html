@@ -1,0 +1,42 @@
+<html>
+    <head>
+      <title>Sorting Visulaizer</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="sorting.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+
+
+<body >
+    <h2 class="heading animate__animated animate__animated">Sorting Visualizer</h2>
+    <div id="nav-bar" >
+        <button type="button" id="new" class="btn new" style="pointer-events: auto;">New Array</button>
+        <!-- //span -->
+        <span class="color">
+          No. of bars
+          <input type="range" id="arr_sz" min="20" max="120" step="1" value="60">
+          </span>
+
+          <span class="color">
+            Speed 
+            <input type="range" id="speed" min="1" max="5" step="1" value="2">
+            </span>
+        <button type="button" class="btn btn-dark bubble sort" style="pointer-events: auto;">Bubble Sort</button>
+        <button type="button" class="btn btn-dark quick sort" style="pointer-events: auto;">Quick Sort</button>
+        <button type="button" class="btn btn-dark insertion sort" style="pointer-events: auto;">Insertion Sort</button>
+        <button type="button" class="btn btn-dark merge sort" style="pointer-events: auto;">Merge Sort</button>
+        <button type="button" class="btn btn-dark selection sort " style="pointer-events: auto;">Selection Sort</button>
+        <div id="bar"></div>
+        <script type="text/javascript" src="JS_files/sorting.js"></script>
+        <script type="text/javascript" src="JS_files/bubble.js"></script>
+        <script type="text/javascript" src="JS_files/selection.js"></script>
+        <script type="text/javascript" src="JS_files/insertion.js"></script>
+        <script type="text/javascript" src="JS_files/quick.js"></script>
+        <script type="text/javascript" src="JS_files/merge.js"></script>
+      </div>
+    
+   
+   </body> 
+   </html>
