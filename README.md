@@ -1,5 +1,5 @@
 # sortingVisualiser
 <p align="center">
-  <img src="github-readme-image.png" width="350" title="hover text">
+  <img src="Github-readme-img.png" width="350" title="hover text">
   
 </p>
